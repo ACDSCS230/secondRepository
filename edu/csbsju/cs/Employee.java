@@ -30,10 +30,18 @@ public class Employee
       return hireDay;
    }
 
+
    public void raiseSalary(double byAbsoluteValue)
    {
       salary += byAbsoluteValue;
    }
+
+//   public void raiseSalary(double byDecimalValue)
+// {
+//      double raise = salary * byDecimalValue;
+//      salary += raise;
+//
+//   }
 
    public String toString() {
 	return name + " " + salary + " " + hireDay;
